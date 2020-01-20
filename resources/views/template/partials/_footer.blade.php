@@ -1,7 +1,11 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2020 - 
+    <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script>
+ <a href="http://visualjambi.com">IT Development Visual Jambi</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.0.1
+     
     </div>
 </footer>

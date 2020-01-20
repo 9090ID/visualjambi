@@ -12,7 +12,8 @@
                     </div>
 
                     <span class="login100-form-title p-t-20 p-b-45">
-                        <b style="color:red;">Visual</b> Jambi
+                        <b style="color:red;">Visual</b> Jambi  <br>
+                        <b style="font-family: Trebuchet MS;"><i>"Media <b style="color:red;">Jambi</b> Teraktual"</i></b>    
                     </span>
 
                     <div class="wrap-input100 validate-input m-b-10" data-validate = "Email is required">

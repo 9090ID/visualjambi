@@ -9,3 +9,4 @@
   <link rel="stylesheet" href="{{ asset('adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   
   @stack('styles')
+ 
