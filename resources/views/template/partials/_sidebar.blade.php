@@ -1,6 +1,4 @@
  @if (Auth::user()->hasRole('kasir'))
-<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
-<div class="wrapper">
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -181,9 +179,8 @@
     <!-- /.sidebar -->
   </aside>
 
-          @else
-<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
-<div class="wrapper">
+@else
+
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -353,6 +350,15 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Category Berita
+                <span class="badge badge-info right"></span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('product.category')}}" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Product
                 <span class="badge badge-info right"></span>
               </p>
             </a>
